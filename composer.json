@@ -37,3 +37,8 @@
         "psr-4": { "MailchimpMarketing\\" : "test/" }
     }
 }
+{
+  "require": {
+    "mailchimp/marketing": "*"
+  }
+}
