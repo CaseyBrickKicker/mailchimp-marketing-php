@@ -36,4 +36,4 @@
     "autoload-dev": {
         "psr-4": { "MailchimpMarketing\\" : "test/" }
     }
-}
+}composer require mailchimp/marketing
