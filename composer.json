@@ -37,3 +37,14 @@
         "psr-4": { "MailchimpMarketing\\" : "test/" }
     }
 }
+require_once('/path/to/MailchimpMarketing/vendor/autoload.php');
+
+$mailchimp = new \MailchimpMarketing\ApiClient();
+
+$mailchimp->setConfig([
+	'apiKey' => 297365c8013a3187791279704eff292f-us6,
+	'server' => us6
+]);
+
+$response = $mailchimp->ping->get();
+print_r($response);
