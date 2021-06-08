@@ -33,6 +33,7 @@
             "MailchimpMarketing\\" : "lib/"
         }
     },
+    composer require mailchimp/marketing
     "autoload-dev": {
         "psr-4": { "MailchimpMarketing\\" : "test/" }
     }
